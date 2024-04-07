@@ -14,6 +14,13 @@ public class Alumno {
 		this.apellido = apellido;
 		this.nombre = nombre;
 	}
+	
+	
+
+	@Override
+	public String toString() {
+		return "\n   Legajo Alumno: " + legajo + "\n   Apellido: " + apellido + "\n   Nombre: " + nombre;
+	}
 
 	public Integer getLegajo() {
 		return legajo;

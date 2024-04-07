@@ -13,6 +13,13 @@ public class Materia {
 		this.codigo = codigo;
 		this.nombre = nombre;
 	}
+	
+	
+
+	@Override
+	public String toString() {
+		return " Codigo de Materia: " + codigo + "\n   Nombre de Materia: " + nombre;
+	}
 
 	public String getCodigo() {
 		return codigo;

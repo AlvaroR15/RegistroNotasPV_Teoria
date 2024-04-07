@@ -16,6 +16,13 @@ public class RegistroNota {
 		this.materia = materia;
 		this.notaFinal = notaFinal;
 	}
+	
+	
+
+	@Override
+	public String toString() {
+		return "Registro de Nota - Codigo: " + codigo + "\n Alumno: " + alumno + "\n\n   Materia:" + materia + "\n   Nota Final:"+ notaFinal;
+	}
 
 	public String getCodigo() {
 		return codigo;
